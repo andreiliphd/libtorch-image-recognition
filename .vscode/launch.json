@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug"
+            ,"type": "windbg"
+            ,"request": "launch"
+            ,"target": "./build/Release/example-app.exe"
+            ,"verbosity": "debug"
+            ,"windbgpath": "C:/Windows/System32/dbgeng.dll"
+            ,"workingDir": "${workspaceRoot}"
+            ,"sources": [ 
+                "${workspaceRoot}"
+                //,"%RUST_SRC_PATH%" 
+                ]
+        }
+    ]
+}
