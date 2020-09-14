@@ -60,9 +60,6 @@ recognition.cpp - main execution point with main(). The core logic of an applica
 
 ---
 
-
----
-
 ## Sources
 
 I used https://github.com/mhubii/libtorch_custom_dataset to implement custom dataset. Thank you very much for the work you've done!
