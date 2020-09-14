@@ -1,7 +1,7 @@
 # Libtorch Image Recognition
 ============
 
-This project is training neural network model to recognize images, TV in this case, among other objects inside my flat. I used Facebook libtorch to make it happen.
+This project aims to train neural network model to recognize images, TV in this case, among other objects inside my flat. I used Facebook Libtorch to make it happen.
 
 ---
 
@@ -51,12 +51,12 @@ make
 
 ### File structure
 dataset.cpp - implements custom dataset.
-csv.cpp - implements csv reader.
-model.cpp - libtorch neural network model implemented as struct.
-recognition.cpp - main execution point with main(). The core logic of an application.
 
-### Class structure
-Although struct Net in model.cpp, this struct clearly exposes main Object Oriented Programming concepts.
+csv.cpp - implements csv reader.
+
+model.cpp - libtorch neural network model implemented as a struct.
+
+recognition.cpp - main execution point with main(). The core logic of an application.
 
 ---
 
