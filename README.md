@@ -65,7 +65,7 @@ Although struct Net in model.cpp, this struct clearly exposes main Object Orient
 
 ## Sources
 
-I used https://github.com/mhubii/libtorch_custom_dataset to implement custom dataset. Thank you very much fot the work you've done!
+I used https://github.com/mhubii/libtorch_custom_dataset to implement custom dataset. Thank you very much for the work you've done!
 
 ---
 
